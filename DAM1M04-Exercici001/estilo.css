@@ -2,6 +2,7 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 
+
 h1 {
     color: blue;
 }
@@ -12,4 +13,24 @@ h2 {
 
 p {
     font-size: 1.1em;
+}
+
+.boton {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background-color: darkblue;
+}
+
+#negritaid {
+    font-weight: bold;
+    color: rgb(87, 80, 80)
+}
+
+.negrita {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: bold;
 }
