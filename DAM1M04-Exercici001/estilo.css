@@ -2,6 +2,17 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
 }
 
+#nombre::before {
+    content:"➡️"
+}
+
+#estudiosyformacion::after {
+    content:"👨‍🎓"
+}
+
+#proyectos::after {
+    content:"👨‍💻"
+}
 
 h1 {
     color: blue;
@@ -33,4 +44,36 @@ p {
 .negrita {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-weight: bold;
+}
+
+#amarillo {
+    color:yellow
+}
+
+#verde{
+    color: verde
+}
+
+ul li:first-child {
+  color: red;
+}
+
+ol li:last-child{
+    color: red
+}
+
+ul li{
+    color: brown;
+}
+
+ol li{
+    color:brown
+}
+
+#grande > li {
+    font-size: 1.2em;
+}
+
+#pequeño > li {
+    font-size: smaller;
 }
