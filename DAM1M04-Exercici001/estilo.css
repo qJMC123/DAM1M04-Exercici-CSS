@@ -1,5 +1,6 @@
 .tipografia {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
 }
 
 #nombre::before {
@@ -38,12 +39,14 @@ p {
 
 #negritaid {
     font-weight: bold;
-    color: rgb(87, 80, 80)
+    color: rgb(87, 80, 80);
 }
 
 .negrita {
     font-family:Verdana, Geneva, Tahoma, sans-serif; 
     font-weight: bold;
+    text-align: left;
+    display: inline-block;
 }
 
 #amarillo {
@@ -64,16 +67,38 @@ ol li:last-child{
 
 ul li{
     color: brown;
+    list-style-position: inside;
 }
 
 ol li{
-    color:brown
+    color:brown;
+    list-style-position: inside;
 }
 
 #grande > li {
     font-size: 1.2em;
+    margin-right: 175px;
 }
+
 
 #pequeño > li {
     font-size: smaller;
+}
+
+.imagenes {
+    border-radius:20px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.20);
+    padding: 3px;
+    display: block;
+    margin:auto;
+    margin-bottom: 100px;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(197, 202, 214), rgb(207, 209, 228));
+    
+}
+
+.container {
+    text-align: center;
 }
